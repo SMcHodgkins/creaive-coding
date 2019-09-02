@@ -1,2 +1,2 @@
-# creaive-coding
-mart120
+# creative-coding
+mart120 homework
