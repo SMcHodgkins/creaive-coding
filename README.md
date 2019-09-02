@@ -1,2 +1,3 @@
-# creative-coding
-mart120 homework
+#Mart-120 Creative Coding
+---
+*A place for homework*
