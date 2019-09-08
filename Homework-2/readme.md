@@ -7,8 +7,8 @@ In the Last Lecture the concepts of not losing childlike wonder and not giving u
 My result indicated I have an open mindset, which seems consistent with my life experience thus far. I’ve always thought that I could learn anything given enough time and effort and have been incredibly frustrated with people who react to failure with a refusal of additional effort because their ability is a foregone conclusion at the task. Hearing “wow, you must be gifted” would make my skin crawl because I knew the effort that I was putting into learning and it felt like a dismissal of that. Watching adults attempt something and immediately give up because they didn’t want to be perceived as incompetent was hard for me to understand. I do my best to learn and grow and want to help other people shift into growth mindsets as well because I believe the world would be better if more people thought that way.
 
 ---
-![Cert](./images/cert.png)
+![Cert](./images/cert.png "Buying a frame now")
 
-![Art](./images/artistlab.png)
+![Art](./images/artistlab.png "Yeah, I'm an artist.")
 
 ---
