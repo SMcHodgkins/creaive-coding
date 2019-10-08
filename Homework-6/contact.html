@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Contact page for First CC">
+    <meta name="author" content="Scott McHodgkins">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      .navbar {
+        border-style: solid;
+        border-width: 2px;
+        padding: 5px;
+        text-decoration: none;
+      }
+      a:link {
+        text-deocration: none;
+        color: 166, 166, 166;
+      }
+      a:visited {
+        text-decoration: none;
+        color: grey;
+      }
+      a:hover {
+        color:156, 194, 214;
+      }
+    </style>
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <span>
+        <a href="./index.html" class=navbar>Home</a>
+      </span>
+      <span>
+        <a href="./art.html" class=navbar>Art</a>
+      </span>
+      <span>
+        <a href="./contact.html"class=navbar>Contact</a>
+      </span>
+    </header>
+    <div>
+    <h2> Contact Information</h2>
+    <form action="contact.html" type="post">
+      Name:  <input type="name"><br><br>
+      Email: <input type="email"<br><br>
+      <p>Do you agree to submit this information?</p>
+      <input type="radio" name="terms" Value="yes">Yes<br>
+      <input type="radio" name="terms" Value="no">No<br><br>
+      <button id="submit">Submit</button>
+    </form>
+    </div>
