@@ -1,0 +1,35 @@
+.navbar {
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+  color: 166, 166, 166;
+}
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+a:hover {
+  color:156, 194, 214;
+  font-style: italic;
+  background-color: 75, 83, 84;
+}
+#N1 {
+  font-size: 1.45em;
+}
+#N2 {
+  font-size: 1.25em;
+}
+#N3 {
+  font-size: 1.05em;
+}
+.section {
+  background-color: rgb(154,162,184);
+  padding: 2px;
+}
+.artbg {
+  background-image: url(https://backgrounddownload.com/wp-content/uploads/2018/09/pastel-repeating-background.gif);
+}
