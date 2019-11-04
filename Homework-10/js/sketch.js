@@ -23,6 +23,7 @@ var speed3;
 var speed4;
 var speed5;
 var txtsize;
+var txt;
 function setup() {
   createCanvas(350, 450);
   speed = Math.floor(Math.random()*5)+1;
@@ -31,7 +32,8 @@ function setup() {
     speed3 = 8;
     speed4 = 1;
     speed5 = 1;
-    txtsize=26;
+    txt=26;
+    txtsize=-1;
 }
 
 function draw() {
@@ -50,14 +52,19 @@ function draw() {
   fill(256) //text fill
   strokeWeight(2)
   stroke('black')
-  textSize(txtsize);
+  /*textSize(txtsize);
   if(txtsize<=36){
     txtsize+=.5;
   } //This was such a pain.
   if(txtsize>=36){
     txtsize/=5;
-  }
+  } */ //Exhiled
+  textSize(txt);
   text('Self-Portrait',10,25);
+    if(txt==26 || txt == 31){
+      txtsize *=-1
+    }
+    txt += txtsize;
   fill(250); //Fill for body parts
   ellipse(larmx,larmy,armw,arml); //left arm
     if(larmx > 225||larmx<=200)
