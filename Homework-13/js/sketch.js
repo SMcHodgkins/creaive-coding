@@ -99,9 +99,14 @@ function victory(){
   }
 }
 function movecircle(){
-  fill(256,60,80);
+  var c1=256;
+  var c2=60;
+  var c3=80;
   for(var i = 0; i < xCoord.length; i++){
+    fill(c1,c2,c3);
     circle(xCoord[i],yCoord[i],diam[i]);
+    c2 += random(-60,35)
+    c3 += random(-80,35)
 }
   //fill(200,130,65);
   //circle(xCoord[1],yCoord[1],diam[1]);
