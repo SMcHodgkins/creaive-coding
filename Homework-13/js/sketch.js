@@ -105,8 +105,8 @@ function movecircle(){
   for(var i = 0; i < xCoord.length; i++){
     fill(c1,c2,c3);
     circle(xCoord[i],yCoord[i],diam[i]);
-    c2 += random(-60,35)
-    c3 += random(-80,35)
+      c2 += random(-60,35);
+      c1 += random(-50,-25);
 }
   //fill(200,130,65);
   //circle(xCoord[1],yCoord[1],diam[1]);
