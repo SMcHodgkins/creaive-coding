@@ -20,7 +20,7 @@ var d3=0;
        createCanvas(800,800);
    }
    function draw(){
-    //background(137)
+    background(137)
     fill(0);
     textSize(ts)
     text('Exit',725,725);
